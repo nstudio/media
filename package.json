@@ -1,0 +1,32 @@
+{
+  "name": "nstudio-media",
+  "version": "0.1.0",
+  "description": "Repo containing nStudio art, graphics, and other assets.",
+  "main": "index",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nstudio/media.git"
+  },
+  "keywords": [
+    "nStudio"
+  ],
+  "author": "nStudio",
+  "bugs": {
+    "url": "https://github.com/nstudio/media/issues"
+  },
+  "homepage": "https://github.com/nstudio/media#readme",
+  "devDependencies": {
+    "lint-staged": "^8.1.5",
+    "husky": "^1.3.1",
+    "prettier": "~1.16.4"
+  },
+  "lint-staged": {
+    "*.{ts, js, json, scss, md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
