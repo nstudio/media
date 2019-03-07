@@ -8,4 +8,4 @@
 
 ### Description
 
-This repo contains artwork, graphics, and other media assets for nStudio, LLC.
+This repo contains artwork, graphics, and other media assets for nstudio, LLC.
